@@ -1,0 +1,52 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+
+# Large datasets and satellite imagery
+*.npz
+*.npy
+*.tif
+*.tiff
+*.vrt
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+
+# Generated data and outputs
+arbitrary_location_test/
+monthly_inputs/
+monthly_maps/
+outputs/
+patches/
+patches_v4/
+patches_v5/
+patches_v5_outer_ring/
+prototype_outputs/
+v5_data/
+
+# Local binaries and runtime logs
+bin/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python and notebook checkpoints
+src/__pycache__/
+src/.ipynb_checkpoints/
+
+# Generated deliverables (keep README and environment metadata)
+deliverables_v5/local_location_analysis/

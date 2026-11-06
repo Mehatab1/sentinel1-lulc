@@ -1,0 +1,7 @@
+package,version,status
+numpy,2.1.0,Installed
+pandas,2.3.3,Installed
+matplotlib,3.10.7,Installed
+rasterio,1.5.2,Installed
+torch,2.9.0,Installed
+Pillow,12.0.0,Installed
